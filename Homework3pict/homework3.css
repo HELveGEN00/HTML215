@@ -1,0 +1,7 @@
+ol{list-style: upper-roman ;}
+.black{list-style: lower-latin ;}
+.lball{list-style: url(orange_marker.png);}
+.tablg{list-style: url(green_marker.png);}
+.rball{list-style: url(red_marker.png);}
+.ptabl{list-style: url(blue_marker.png);}
+.x{list-style: url(black_marker.png);}

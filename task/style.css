@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrap {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    background: #F3F3F3;
+    padding-bottom: 120px;
+}
+
+.header_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    margin: 40px 0;
+
+}
+
+.header li {
+    margin: 21px;
+}
+
+.header a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+}
+
+.header h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.header h1 {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 120px 0 40px;
+}
+
+.header h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: 0 0 40px;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+}
+
+.header .but1 {
+    background: #FFA62B;
+    border-radius: 37px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 10px 36px;
+    box-sizing: border-box;
+    display: block;
+    margin-right: 5px;
+}
+
+.header .but2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #00A0C1;
+    border: 1px solid #00A0C1;
+    border-radius: 37px;
+    padding: 10px 36px;
+    box-sizing: border-box;
+    display: block;
+    margin-left: 5px;
+
+}
+
+/* homework2 */
+
+.homework2 {
+    padding: 80px 0 110px;
+}
+
+.homework2 p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.homework2 h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px 0px;
+    gap: 30px;
+    width: 1048px;
+    height: 244px;
+    justify-content: space-between;
+
+}
+
+.oneblock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 35px;
+    width: 327px;
+    height: 244px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+}
+
+.twoblock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 35px;
+    width: 327px;
+    height: 244px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+}
+
+.threeblock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 35px;
+    width: 327px;
+    height: 244px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.stars {
+    flex: none;
+    align-items: left;
+}
+
+.card_content .grey {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-align: left;
+
+}
+
+.orange {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFA62B;
+    margin: 0px;
+}
+
+.black {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 0px;
+}
+
+.chel{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.chel img{
+padding: 0px 10px;
+}
+
+
+
+
+
+
+/* homework */
+.divh {
+    background: #FAFAFA;
+}
+
+.cont {
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.h h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin: 40px 0 10px;
+
+}
+
+.h p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: 0 0 40px;
+}
+
+.botbut a {
+    text-decoration: none;
+}
+
+.but222 {
+
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 15px 40px;
+    background: #FFA62B;
+    border-radius: 5px;
+    margin: 0 42px;
+
+}
+
+/* подвал */
+.cont {
+    width: 1050px;
+    height: 142px;
+    margin: 0 auto;
+}
+
+.pod {
+    background: #252B42;
+}
+
+.pod h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin: 53px 0;
+
+}
+
+.header10 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header10 ul {
+    display: flex;
+    list-style: none;
+    margin: 40px 0;
+
+}
+
+.header10 li {
+    margin: 20px;
+}
+
+.cont1 {
+    width: 1050px;
+    margin: 0 auto;
+
+}

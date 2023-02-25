@@ -1,0 +1,24 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	margin-top: 0px;
+}
+.father{
+	/* position:relative;  */
+}
+.smile{
+	/* position:absolute; */
+	/* position:fixed; */
+	
+	top:300px;
+	left:200px;
+	border: 1px solid blue;
+	background: silver;
+}
+.layer{
+	position: sticky;
+	top: 0;
+	background: silver;
+}

@@ -1,0 +1,14 @@
+ul {/* text-align: center; */
+    /* list-style-type: circle;
+    list-style-image:url(icon.png);
+    list-style-position: inside; */
+    list-style: circle inside url(icon.png) ;
+}
+
+ol {
+    list-style-type: decimal;
+    list-style-image: none;
+}
+/* li{   
+    background-color: yellowgreen;
+} */

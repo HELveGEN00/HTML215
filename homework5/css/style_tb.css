@@ -1,0 +1,30 @@
+body {
+    background-image: url(../img/pattern.png);
+}
+
+table {
+    table-layout: fixed;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 200px auto;
+    box-shadow: 0 0 12px 6px gray;
+    width: 800px;
+    height: 400px;
+    background-color: white;
+}
+
+th {
+    border: 2px solid lightgrey;
+    background-image: url(../img/tablebg.jpg);
+}
+
+td {
+    border: 2px solid lightgrey;
+    clear: both;
+}
+
+.row {
+    background: lightgrey;
+
+}
